@@ -1,0 +1,13 @@
+import tkinter
+window=tkinter.Tk()
+window.geometry("400x400")
+window.title("Компасс")
+north=tkinter.Label(text="Север",font="Arial 16")
+north.place(x=160,y=0)
+south=tkinter.Label(text="Юг",font="Arial 16")
+south.place(x=170,y=360)
+west=tkinter.Label(text="Запад",font="Arial 16")
+west.place(x=0,y=180)
+east=tkinter.Label(text="Восток",font="Arial 16")
+east.place(x=320,y=180)
+window.mainloop()
