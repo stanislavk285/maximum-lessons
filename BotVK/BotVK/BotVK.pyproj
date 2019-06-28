@@ -22,10 +22,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BotVK.py" />
+    <Compile Include="keyboard.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="memes.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="module1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Valute.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Weather.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
